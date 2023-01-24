@@ -1,2 +1,6 @@
-variable "rgname" {}
-variable "loc" {}
+variable "rgname" {
+default = "pprg"
+}
+variable "loc" {
+default = "East US"
+}
