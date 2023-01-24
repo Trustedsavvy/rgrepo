@@ -8,6 +8,7 @@ trigger:
 
 pool:
   name: Default
+  demands: vm
 
 steps:
 - task: TerraformInstaller@0
